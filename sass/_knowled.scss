@@ -1,0 +1,127 @@
+.child {
+  font-size: 25px;
+  margin-top: 50px;
+}
+.child2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.child3 {
+  font-size: 35px;
+  color: darkblue;
+}
+.child4 {
+  border: 5px solid darkblue;
+  width: 250px;
+  min-height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  color: darkblue;
+}
+.knowled_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.knowled_1_left {
+  width: 380px;
+  min-height: 420px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+}
+.knowled_1_right {
+  width: 380px;
+  min-height: 420px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+}
+.knowled_1 {
+  width: 380px;
+  min-height: 420px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+}
+.knowled_1_img {
+  width: 100%;
+  border-radius: 15px;
+}
+.knowled_1_p {
+  width: 150px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: #0078cd;
+  margin-left: 15px;
+}
+.knowled_1_h4 {
+  text-align: start;
+  font-size: 20px;
+  padding: 0px 0px 15px 15px;
+}
+.knowled_1_p2 {
+  text-align: start;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 800px) and (min-width: 420px) {
+  .child {
+    transform: translateY(1970px);
+  }
+  .child2 {
+    margin-top: 1000px;
+  }
+  .child3 {
+    margin-top: 1000px;
+  }
+  .child4 {
+    margin-top: 1000px;
+  }
+  .knowled_1 {
+    margin-left: 200px;
+  }
+  .knowled_1_left {
+    display: none;
+  }
+  .knowled_1_right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 210px) {
+  .knowled_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 00px;
+    gap: 25px;
+  }
+
+  .child {
+    transform: translateY(00px);
+    margin-left: 15px;
+  }
+  .child2 {
+    transform: translateY(00px);
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .child3 {
+    transform: translateY(0px);
+  }
+  .child4 {
+    transform: translateY(1705px) translateX(-90px);
+  }
+}

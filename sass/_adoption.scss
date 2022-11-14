@@ -1,0 +1,71 @@
+.adoption_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 
+#FCEED5;
+padding: 25px;
+border-radius: 25px;
+margin-top: 50px;
+}
+.left_h1 {
+    font-size: 65px;
+    color: darkblue;
+}
+.left_h1_2 {
+   font-size: 45px;
+   color: darkblue;
+      }
+      .left_p {
+        width: 300px;
+        font-size: 18px;
+      }
+      .button_box {
+        display: flex;justify-content: start;
+        gap: 25px;
+
+      }
+      .button_left {
+        width: 250px;
+        border-radius: 25px;
+        border-color: darkblue;
+        background-color: darkblue;
+        color:white;
+        font-size: 18px;
+        padding: 25px;
+       min-height: 50px;
+      }
+      .button_right {
+        width: 250px;
+        border: 5px solid darkblue;
+        border-radius: 25px;
+        border-color: darkblue;
+        color: darkblue;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        min-height: 50px;
+        background-color: transparent;
+      }
+      .button_right_img {
+        margin-top: 7px;
+        width: 30px;
+        margin-left: 15px;
+      }
+      @media only screen and (max-width:800px) and (min-width:210px) {
+        .adoption_box {
+          display: none;
+        }
+        .button_left {
+          display: none;
+
+        }
+        .button_right{
+          display: none;
+        }
+        .button_right_img {
+          display: none;
+        }
+      }

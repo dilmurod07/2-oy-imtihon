@@ -1,0 +1,39 @@
+ .sellers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+ }
+ .sellers2 {
+    font-size: 45px;
+    color: darkblue;
+ }
+ .sellers_h2 {
+    font-size: 35px;
+ }
+ .sellers_button {
+    width: 300px;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: darkblue;
+    background-color: transparent;
+ } 
+ @media only screen and (max-width:800px) and (min-width:210px) {
+   .sellers {
+      display: none;
+   }
+   .sellers2 {
+      display: none;
+   }
+   .sellers_h2 {
+      display: none;
+   }
+   .sellers_button {
+      display: none;
+   }
+   .logo_box {
+     display: none;
+   }
+   
+ }

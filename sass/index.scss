@@ -2,3 +2,29 @@
     width: 1220px;
     margin: 0 auto;
 }
+a {
+    text-decoration: none;
+}
+@media only screen and (max-width:800px) and (min-width:420px) {
+     .container{
+        width: 800px;
+        margin: 0 auto
+     }
+}
+@media only screen and (max-width:400px) and(min-width:210px)  {
+  .container {
+      width: 400px;
+     margin: 0 auto
+  }
+    
+}
+@import "animation" ;
+@import "header";
+@import "hero" ;
+@import "pets" ;
+@import "friend";
+@import "products";
+@import "sellers";
+@import "adoption";
+@import "knowled";
+@import "footer";

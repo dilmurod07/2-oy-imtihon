@@ -1,0 +1,286 @@
+.pets_box {
+  display: grid;
+  width: 100%px;
+  height: 1200px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 35px;
+  padding-top: 50px;
+
+}
+
+h5 {
+  font-size: 25px;
+  transform: translateY(45px);
+}
+.peta_a {
+  border: 2px solid darkblue;
+  padding: 25px;
+  border-radius: 65px;
+  min-width: 150px;
+  height: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h3 {
+  font-size: 25px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pets_card1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+}
+.pets_card1 img {
+  width: 100%;
+}
+.card1_h5 {
+  transform: translateY(-20px) translateX(25px);
+  font-size: 18px;
+}
+.card1_p {
+  font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card1_h4 {
+  font-size: 24px;
+  
+  transform: translateY(-3px) translateX(25px);
+}
+.card2 {
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.card2_img {
+ 
+  width: 100%;
+}
+.card2_h5 {
+  transform: translateY(-20px) translateX(25px);
+  font-size: 18px;
+}
+.card2_p {
+  font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(30px) translateX(25px);
+}
+.card2_h4 {
+  font-size: 24px;
+  transform: translateY(23px) translateX(25px);
+}
+.card3 {
+     background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.card3_img {
+  
+  width: 100%;
+}
+.card3_h5 {
+   transform: translateY(-20px) translateX(25px);
+  font-size: 18px;
+}
+.card3_p {
+    font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card3_h4 {
+    font-size: 24px;
+  transform: translateY(-40px) translateX(25px);
+}
+.card4 {
+     background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.card4_h5 {
+   transform: translateY(-20px) translateX(10px);
+  font-size: 18px;
+}
+.card4_img{
+
+  width: 100%;
+}
+.card4_p {
+   font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card4_h4 {
+  font-size: 24px;
+  transform: translateY(-40px) translateX(25px);
+}
+.card5 {
+    background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.card5_img {
+   
+  width: 100%;
+}
+.card5_h5 {
+     transform: translateY(-20px) translateX(10px);
+  font-size: 18px;
+}
+.card5_p {
+     font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card5_h4{
+   font-size: 25px;
+  transform: translateY(-25px) translateX(25px);
+}
+.card6 {
+      background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.card6_h5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  transform: translateY(5px) translateX(10px);
+  font-size: 18px;
+}
+.card6_img {
+
+  width: 100%;
+}
+.card6_p {
+  font-size: 18px;
+  opacity: 0.4;
+  padding-top: 15px;
+  transform: translateY(-30px) translateX(25px);
+}
+.card6_h4 {
+     font-size: 25px;
+     margin-left: 15px;
+  transform: translateY(-5px) translateX(23px);
+}
+.card7 {
+     background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.card7_img {
+  
+  width: 100%;
+}
+.card7_h5 {
+   transform: translateY(-20px) translateX(30px);
+  font-size: 18px;
+}
+.card7_p {
+  font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card7_h4 {
+   font-size: 24px;
+  transform: translateY(-40px) translateX(35px);
+}
+.card8 {
+    background-color: transparent;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.card8_img {
+    
+  width: 100%;
+}
+.card8_h5 {
+   transform: translateY(-20px) translateX(15px);
+  font-size: 18px;
+}
+.card8_p {
+   font-size: 18px;
+  opacity: 0.4;
+  transform: translateY(-30px) translateX(25px);
+}
+.card8_h4 {
+     font-size: 24px;
+  transform: translateY(-40px) translateX(35px);
+}
+@media only screen and (max-width:800px) and (min-width:210px) {
+    .pets_box {
+      display: grid;
+      justify-content: center;
+  width: 100%;
+  height: 1200px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 35px;
+  padding-top: 50px;
+  
+    }
+    .pets_card1 {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    
+    }
+    .card2 {
+      grid-column: 3/5 !important;
+      grid-row: 1/2 !important;
+      
+    }
+    .card3 {
+      grid-column: 1/3 !important;
+      grid-row: 2/3 !important;
+    }
+    .card4 {
+      grid-column: 3/5 !important;
+      grid-row: 2/3 !important;
+    }
+    .card5 {
+      grid-column: 1/3 !important;
+      grid-row: 3/4 !important;
+    }
+    .card6 {
+      grid-column: 3/5 !important;
+      grid-row: 3/4 !important;
+    }
+    .card7 {
+      grid-column: 1/3 !important;
+      grid-row: 4/5 !important ;
+    }
+    .card8 {
+      grid-column: 3/5 !important;
+      grid-row: 4/5 !important;
+    }
+    
+
+}
+@media only screen and (max-width:420px) and (min-width:210px)
+ {
+  .peta_a {
+    transform: translateY(2120px) translateX(-80px);
+
+  }
+  h5 {
+    font-size: 35px;
+  }
+  nav h3 { 
+    font-size: 25px;
+   color: darkblue;
+   width:100%;
+  }
+}
